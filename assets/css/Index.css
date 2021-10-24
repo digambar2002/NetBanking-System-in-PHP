@@ -1,0 +1,126 @@
+/* Login Modal */
+
+*{
+  outline: none;
+}
+.modal-login h5{
+
+  text-align: center;
+  margin-left: auto;
+}
+.profile-pic{
+  max-height: 95px;
+}
+
+.text-center h4{
+margin-top: 12px;
+font-size: 30px;
+color: #4158d0;
+}
+
+
+.input-box{
+  width: 450px;
+  margin: auto;
+  background: #fff;
+  padding: 50px;
+  margin-top: -15px;
+  /* box-shadow: 0px 0px 10px rgba(0,0,0,0.1); */
+}
+.input-box .input-data{
+  height: 40px;
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+}
+.input-box .pass{
+    margin-bottom: -15px;
+}
+.input-box .input-data input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid silver;
+}
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 15px;
+  color: #4158d0;
+}
+.input-box .input-data label{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: grey;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.input-data .underline{
+position: absolute;
+height: 2px;
+width: 100%;
+bottom: 0;
+}
+.input-data .underline:before{
+position: absolute;
+content: "";
+height: 100%;
+width: 100%;
+background: #4158d0;
+transform: scaleX(0);
+transform-origin: center;
+transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before{
+transform: scaleX(1);
+}
+@media (max-width: 991px) {
+  .input-box{
+      width: 325px;
+      margin-top: -20px;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+}
+
+.forgotSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginBtn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 50px;
+  border-radius: 30px;
+  transition: 0.5s;
+  margin-top: 20px;
+  color: #5846f9;
+  border: 2px solid #5846f9;
+  color: white;
+  background-color: #5846f9;
+}
+.loginBtn:hover{
+    background-color: #4158d0;
+    color: white;
+}
+
+.createAccount{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
