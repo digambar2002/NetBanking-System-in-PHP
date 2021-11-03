@@ -22,6 +22,11 @@ if (isset($_POST['submit'])) {
     $Pan_Number = $_POST['PanNumber'];
     $Adhar_Number = $_POST['AdharNumber'];
     $Account_Number = date('ndyHisL');
+
+    if(strlen($Account_Number)>12){
+        $Account_Number = substr($Account_Number,0,-1);
+    }
+
     $Email = $_POST['email'];
     $Pincode = $_POST['pincode'];
 
