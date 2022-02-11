@@ -51,6 +51,6 @@ If you want to setup this project contact me on telegram
 Telegram id: @DigambarBC  
 
 
-  🎉 Now Enjoy Project 😉  
+  🎉 Then Enjoy Project 😉  
 
 
