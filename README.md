@@ -27,15 +27,15 @@ https://youtu.be/9OP36wzL4tE
 ## Screenshots
 1] Landing Page
 
-![App Screenshot](https://raw.githubusercontent.com/DigambarBC/image-hosting/main/landing%20page.png)
+![App Screenshot](https://drive.google.com/uc?export=download&id=1GYV0wVnz-s-2u-xPgM5y5aUmDWRegNGI)
 
 2] Login Page
 
-![App Screenshot](https://raw.githubusercontent.com/DigambarBC/image-hosting/main/login_dash.png)
+![App Screenshot](https://drive.google.com/uc?export=download&id=1v-gJKBurl8VT9bxTKNQ5JVBPPFtxJPxq)
 
 3] User Dashboard
 
-![App Screenshot](https://raw.githubusercontent.com/DigambarBC/image-hosting/main/php_bank_userdash.png)
+![App Screenshot](https://drive.google.com/uc?export=download&id=1SXLLPdnCaj7B55Uq6nIyiT3089FgAFKO)
 
 ## Installation
 
